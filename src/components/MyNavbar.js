@@ -80,7 +80,7 @@ export const MyNavbar = () => {
                 console.log("haha");
               }}
             >
-              Let's Connect
+              <span>Let's Connect</span>
             </button>
           </span>
         </Navbar.Collapse>
