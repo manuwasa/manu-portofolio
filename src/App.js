@@ -5,7 +5,7 @@ import { MyNavbar } from "./components/MyNavbar";
 function App() {
   return (
     <div className="App">
-      {/* <MyNavbar /> */}
+      <MyNavbar />
       <Banner />
     </div>
   );
