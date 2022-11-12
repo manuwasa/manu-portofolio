@@ -36,17 +36,12 @@ export const Project = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum error
-              nesciunt facilis qui iste omnis fuga, expedita officiis sequi
-              soluta totam explicabo id et est deserunt inventore nisi. Odit,
-              cumque?
-            </p>
+            <p>This is some of the projects i built with my teams</p>
             <TabContainer id="projecs-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

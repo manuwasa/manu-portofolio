@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
+import navIcon2 from "../assets/img/github-logo.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const MyNavbar = () => {
@@ -62,20 +62,32 @@ export const MyNavbar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#">
+              <a
+                href="https://www.linkedin.com/in/manuwasa/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={navIcon1} alt="social-media" />
               </a>
-              <a href="#">
+              <a
+                href="https://github.com/manuwasa"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={navIcon2} alt="social-media" />
               </a>
-              <a href="#">
+              <a
+                href="https://www.instagram.com/manuws.f/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img src={navIcon3} alt="social-media" />
               </a>
             </div>
             <button
               className="vvd"
               onClick={() => {
-                console.log("haha");
+                window.location.href = "https://www.linkedin.com/in/manuwasa/";
               }}
             >
               <span>Let's Connect</span>

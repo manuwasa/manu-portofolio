@@ -37,10 +37,7 @@ export const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat officia iste enim. Iure officia nisi, illum quas quia
-                exercitationem optio, veritatis nobis placeat libero harum vero
-                eveniet nemo, dicta laborum?
+                Here is some of the tools that im using for website development
               </p>
               <Carousel
                 responsive={responsive}

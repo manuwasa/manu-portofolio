@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/illust.svg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = React.useState(0);
@@ -51,18 +51,20 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className="tagline">Welcome to my website Portofolio</span>
             <h1>
-              {`Hello there I'm, `} <br />{" "}
-              <span className="wrap"> > {text}</span>
+              {`Hello there I'm Manu, `} <br />{" "}
+              <span className="wrap"> &gt; {text}</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam,
-              molestias? Debitis natus, ipsam recusandae quo quibusdam quod
-              quidem magnam laborum aperiam laboriosam? Odio temporibus nemo
-              maxime reiciendis modi error tempora.
+              I am a fresh graduate S1 majoring in Informatics from Bhayangkara
+              University Jakarta Raya. I have experience developing websites
+              using Wordpress cms and elementor plugins and have knowledge of
+              website development with Laravel frameworks and React Js also very
+              interested in learning more about the field of Information and
+              Technology.
             </p>
             <button
               onClick={() => {
-                console.log("helllo");
+                window.location.href = "https://www.linkedin.com/in/manuwasa/";
               }}
             >
               Let's Connect
