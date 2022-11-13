@@ -12,6 +12,9 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import projectC1 from "../assets/img/solit.png";
 import projectC2 from "../assets/img/cbp.png";
 import projectC3 from "../assets/img/wansin.png";
+import projectC4 from "../assets/img/KTB.png";
+import projectC5 from "../assets/img/smartplus.png";
+import projectC6 from "../assets/img/Mutiara.png";
 import projectL1 from "../assets/img/cups.png";
 import projectL2 from "../assets/img/furnitune.png";
 import projectL3 from "../assets/img/ygec.png";
@@ -34,10 +37,28 @@ export const Project = () => {
       imgUrl: projectC2,
     },
     {
-      title: "Website Development",
-      description: "Landing Page",
+      title: "Wansin Website",
+      description: "Company Profile",
       techStack: "Wordpress, Elementor, CSS, JS",
       imgUrl: projectC3,
+    },
+    {
+      title: "KTB Website",
+      description: "Company Profile",
+      techStack: "Wordpress, Elementor, CSS, JS",
+      imgUrl: projectC4,
+    },
+    {
+      title: "Smartplus Website",
+      description: "Company Profile",
+      techStack: "Wordpress, Elementor, CSS, JS",
+      imgUrl: projectC5,
+    },
+    {
+      title: "Mutiara Hidroponik Website",
+      description: "Company Profile",
+      techStack: "Wordpress, Elementor, CSS, JS",
+      imgUrl: projectC6,
     },
   ];
 
@@ -89,7 +110,7 @@ export const Project = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>This is some of the projects i built with my teams</p>
+            <p>This is some of the projects i built with my teams or my own</p>
             <TabContainer id="projecs-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"

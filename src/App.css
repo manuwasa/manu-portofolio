@@ -2,7 +2,7 @@
 
 @media (max-width: 600px) {
   .banner {
-    padding: 150px 0 100px 0 !important;
+    padding: 120px 0 100px 0 !important;
   }
 
   .banner h1 {
@@ -19,6 +19,14 @@
 
   .skill-slider {
     width: 100% !important;
+  }
+
+  .project p {
+    width: 100% !important;
+  }
+
+  .nav.nav-pills a {
+    font-size: 14px !important;
   }
 }
 
