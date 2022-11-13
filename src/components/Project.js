@@ -9,29 +9,77 @@ import {
 } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png";
-import project01 from "../assets/img/project-img1.png";
-import project02 from "../assets/img/project-img2.png";
-import project03 from "../assets/img/project-img3.png";
+import projectC1 from "../assets/img/solit.png";
+import projectC2 from "../assets/img/cbp.png";
+import projectC3 from "../assets/img/wansin.png";
+import projectL1 from "../assets/img/cups.png";
+import projectL2 from "../assets/img/furnitune.png";
+import projectL3 from "../assets/img/ygec.png";
+import projectP1 from "../assets/img/calc.png";
+import projectP2 from "../assets/img/progate.png";
+import projectP3 from "../assets/img/staycation.png";
 
 export const Project = () => {
-  const projects = [
+  const projectsCompany = [
     {
-      title: "Website Development",
+      title: "SOLIT Website",
       description: "Company Profile",
-      imgUrl: project01,
-      siteUrl: "#",
+      techStack: "Wordpress, Elementor, CSS, JS",
+      imgUrl: projectC1,
     },
     {
-      title: "Website Development",
+      title: "CBP Website",
       description: "Company Profile",
-      imgUrl: project02,
-      siteUrl: "#",
+      techStack: "Wordpress, Elementor, CSS, JS",
+      imgUrl: projectC2,
     },
     {
       title: "Website Development",
       description: "Landing Page",
-      imgUrl: project03,
-      siteUrl: "#",
+      techStack: "Wordpress, Elementor, CSS, JS",
+      imgUrl: projectC3,
+    },
+  ];
+
+  const projectsLanding = [
+    {
+      title: "CUPS",
+      description: "Landing Page",
+      techStack: "HTML, CSS , JS, Bootstrap",
+      imgUrl: projectL1,
+    },
+    {
+      title: "Furnitune",
+      description: "Landing Page",
+      techStack: "HTML, CSS , JS, Bootstrap",
+      imgUrl: projectL2,
+    },
+    {
+      title: "YGEC 2022",
+      description: "Landing Page & Registration",
+      techStack: "Wordpress, Elementor, CSS, JS",
+      imgUrl: projectL3,
+    },
+  ];
+
+  const projectsCourse = [
+    {
+      title: "Calculator Website",
+      description: "Progate Assignment",
+      techStack: "HTML, CSS , JS",
+      imgUrl: projectP1,
+    },
+    {
+      title: "JalanIn",
+      description: "Progate Team Assignment",
+      techStack: "HTML, CSS , JS",
+      imgUrl: projectP2,
+    },
+    {
+      title: "Staycation",
+      description: "Build With Angga Course",
+      techStack: "Laravel, Bootstrap, Mysql",
+      imgUrl: projectP3,
     },
   ];
 
@@ -49,25 +97,37 @@ export const Project = () => {
                 id="pills-tab"
               >
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                  <Nav.Link eventKey="first">Company Profile</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                  <Nav.Link eventKey="second">Landing Page</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                  <Nav.Link eventKey="third">Course Project</Nav.Link>
                 </Nav.Item>
               </Nav>
               <TabContent>
                 <TabPane eventKey="first">
                   <Row>
-                    {projects.map((project, index) => {
-                      return <ProjectCard key={index} {...project} />;
+                    {projectsCompany.map((projectC, index) => {
+                      return <ProjectCard key={index} {...projectC} />;
                     })}
                   </Row>
                 </TabPane>
-                <TabPane eventKey="second">lorem ipsum</TabPane>
-                <TabPane eventKey="third">lorem ipsum</TabPane>
+                <TabPane eventKey="second">
+                  <Row>
+                    {projectsLanding.map((projectL, index) => {
+                      return <ProjectCard key={index} {...projectL} />;
+                    })}
+                  </Row>
+                </TabPane>
+                <TabPane eventKey="third">
+                  <Row>
+                    {projectsCourse.map((projectP, index) => {
+                      return <ProjectCard key={index} {...projectP} />;
+                    })}
+                  </Row>
+                </TabPane>
               </TabContent>
             </TabContainer>
           </Col>

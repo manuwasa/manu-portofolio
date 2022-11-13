@@ -256,8 +256,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner {
   margin-top: 0;
-  padding: 220px 0 100px 0;
-  background-image: url("./assets/img/banner-bg.png");
+  padding: 200px 0 100px 0;
+  background-image: url("./assets/img/banner-me.jpg");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -421,7 +421,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .project .nav.nav-pills {
-  width: 72%;
+  width: 100%;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255, 255, 255/10%);
@@ -480,12 +480,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0 55px 55px 0;
 } */
 
+.proj-imgbx img {
+  max-width: 450px;
+  height: 300px;
+}
+
 .proj-imgbx {
   display: flex;
   position: relative;
   border-radius: 30px !important;
   overflow: hidden;
   margin-bottom: 24px;
+  justify-content: center;
 }
 
 .proj-imgbx::before {
@@ -544,6 +550,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Projects */
+
+/* Footer */
+
+.footer {
+  padding: 50px 20px 0px 20px;
+  margin-bottom: -200px;
+}
+
+/* Footer */
 
 /* .App {
   text-align: center;

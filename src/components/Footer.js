@@ -5,16 +5,18 @@ import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export const Footer = () => {
   return (
-    <section>
+    <section className="footer" id="footer">
       <Container>
         <Row>
           <Col md={6} sm={12}>
-            <h2>MANU</h2>
-            <p>Copyright © 2022 . All Right Reserved </p>
+            <div className="footer-brand">
+              <h2>MANU</h2>
+              <p>Copyright © 2022 . All Right Reserved </p>
+            </div>
           </Col>
-          <Col md={6} sm={12} className="text-end">
+          <Col md={6} sm={12} className="text-end footer-social">
             <p>Contact And Information</p>
-            <span className="navbar-text justify-content-end">
+            <span className="justify-content-end">
               <div className="social-icon">
                 <a
                   href="https://www.linkedin.com/in/manuwasa/"
