@@ -21,6 +21,7 @@ import projectL3 from "../assets/img/ygec.png";
 import projectP1 from "../assets/img/calc.png";
 import projectP2 from "../assets/img/progate.png";
 import projectP3 from "../assets/img/staycation.png";
+import projectP4 from "../assets/img/ytClone.png";
 
 export const Project = () => {
   const projectsCompany = [
@@ -97,10 +98,16 @@ export const Project = () => {
       imgUrl: projectP2,
     },
     {
-      title: "Staycation",
+      title: "NOMADS",
       description: "Build With Angga Course",
       techStack: "Laravel, Bootstrap, Mysql",
       imgUrl: projectP3,
+    },
+    {
+      title: "Youtube Clone",
+      description: "Coding Along With Javascript Mastery",
+      techStack: "ReactJs, RapidAPI",
+      imgUrl: projectP4,
     },
   ];
 
