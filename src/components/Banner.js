@@ -60,7 +60,7 @@ export const Banner = () => {
               using Wordpress cms and elementor plugins and have knowledge of
               website development with Laravel frameworks and React Js also very
               interested in learning more about the field of Information and
-              Technology.
+              Technology, but also open to new experience.
             </p>
             <button
               onClick={() => {

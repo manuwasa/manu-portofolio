@@ -30,36 +30,42 @@ export const Project = () => {
       description: "Company Profile",
       techStack: "Wordpress, Elementor, CSS, JS",
       imgUrl: projectC1,
+      webUrl: "https://solit.co.id/",
     },
     {
       title: "CBP Website",
       description: "Company Profile",
       techStack: "Wordpress, Elementor, CSS, JS",
       imgUrl: projectC2,
+      webUrl: "http://candrabudiperkasa.com/",
     },
     {
       title: "Wansin Website",
       description: "Company Profile",
       techStack: "Wordpress, Elementor, CSS, JS",
       imgUrl: projectC3,
+      webUrl: "https://wansin-mesinkayu.com/",
     },
     {
       title: "KTB Website",
       description: "Company Profile",
       techStack: "Wordpress, Elementor, CSS, JS",
       imgUrl: projectC4,
+      webUrl: "http://karyateknikbersama.com/",
     },
     {
       title: "Smartplus Website",
       description: "Company Profile",
       techStack: "Wordpress, Elementor, CSS, JS",
       imgUrl: projectC5,
+      webUrl: "https://soldering-smt.com/",
     },
     {
       title: "Mutiara Hidroponik Website",
       description: "Company Profile",
       techStack: "Wordpress, Elementor, CSS, JS",
       imgUrl: projectC6,
+      webUrl: "https://mutiara.putrateknologiindonesia.com/",
     },
   ];
 
@@ -69,18 +75,21 @@ export const Project = () => {
       description: "Landing Page",
       techStack: "HTML, CSS , JS, Bootstrap",
       imgUrl: projectL1,
+      webUrl: "https://manuwasa.github.io/cups/",
     },
     {
       title: "Furnitune",
       description: "Landing Page",
       techStack: "HTML, CSS , JS, Bootstrap",
       imgUrl: projectL2,
+      webUrl: "https://manuwasa.github.io/furnitune/",
     },
     {
       title: "YGEC 2022",
       description: "Landing Page & Registration",
       techStack: "Wordpress, Elementor, CSS, JS",
       imgUrl: projectL3,
+      webUrl: "https://yamahagenerasi125esports.com/",
     },
   ];
 
@@ -90,24 +99,28 @@ export const Project = () => {
       description: "Progate Assignment",
       techStack: "HTML, CSS , JS",
       imgUrl: projectP1,
+      webUrl: "https://manuwasa.github.io/progate-calculator/",
     },
     {
       title: "JalanIn",
       description: "Progate Team Assignment",
       techStack: "HTML, CSS , JS",
       imgUrl: projectP2,
+      webUrl: "https://manuwasa.github.io/project-10c/",
     },
     {
       title: "NOMADS",
       description: "Build With Angga Course",
       techStack: "Laravel, Bootstrap, Mysql",
       imgUrl: projectP3,
+      webUrl: "#",
     },
     {
       title: "Youtube Clone",
       description: "Coding Along With Javascript Mastery",
       techStack: "ReactJs, RapidAPI",
       imgUrl: projectP4,
+      webUrl: "https://manu-youtubeclone-jsm.netlify.app/",
     },
   ];
 
