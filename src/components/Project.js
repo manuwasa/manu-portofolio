@@ -22,6 +22,7 @@ import projectP1 from "../assets/img/calc.png";
 import projectP2 from "../assets/img/progate.png";
 import projectP3 from "../assets/img/staycation.png";
 import projectP4 from "../assets/img/ytClone.png";
+import projectP5 from "../assets/img/gerich.png";
 
 export const Project = () => {
   const projectsCompany = [
@@ -121,6 +122,13 @@ export const Project = () => {
       techStack: "ReactJs, RapidAPI",
       imgUrl: projectP4,
       webUrl: "https://manu-youtubeclone-jsm.netlify.app/",
+    },
+    {
+      title: "Gerich Restaurant",
+      description: "Coding Along With Javascript Mastery",
+      techStack: "ReactJs",
+      imgUrl: projectP5,
+      webUrl: "https://manu-gerich-jsm.netlify.app/",
     },
   ];
 
