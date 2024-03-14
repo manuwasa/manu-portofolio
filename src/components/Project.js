@@ -55,13 +55,6 @@ export const Project = () => {
          webUrl: "http://karyateknikbersama.com/",
       },
       {
-         title: "SDN Cimuning Website",
-         description: "Landing Page",
-         techStack: "Wordpress, Elementor, CSS, JS",
-         imgUrl: projectC5,
-         webUrl: "https://sdncimuning3bekasi.sch.id/",
-      },
-      {
          title: "Mutiara Hidroponik Website",
          description: "Company Profile",
          techStack: "Wordpress, Elementor, CSS, JS",
@@ -91,6 +84,13 @@ export const Project = () => {
          techStack: "Wordpress, Elementor, CSS, JS",
          imgUrl: projectL3,
          webUrl: "https://yamahagenerasi125esports.com/",
+      },
+      {
+         title: "SDN Cimuning Website",
+         description: "Landing Page",
+         techStack: "Wordpress, Elementor, CSS, JS",
+         imgUrl: projectC5,
+         webUrl: "https://sdncimuning3bekasi.sch.id/",
       },
    ];
 
